@@ -91,7 +91,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(./img/pexels-magda-ehlers-12715975.jpg);
+    ,url(./img/pexels-kai-pilger-996329.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -109,5 +109,59 @@ header a:hover{
 #Liriumshowroom .container{
     text-align: center;
     padding: 200px 12px;
+     
 }
 
+#nuestros-productos{
+background-color: black;
+color: #fafafa;
+text-align: center;
+
+}
+
+#nuestros-productos .container {
+    padding: 100px 12px;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+}
+
+#nuestros-productos p{
+    display: none;
+}
+
+#nuestros-productos .carta{
+
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/pexels-ksenia-chernaya-3965548.jpg);
+ 
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/243188050CD_99_4.jpg);
+
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/pexels-ylanite-koppens-934063.jpg);
+
+}
