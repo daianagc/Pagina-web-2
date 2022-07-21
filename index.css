@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(202, 171, 245);
@@ -102,7 +106,8 @@ header a:hover{
     color: #fafafa;
 }
 
-#Liriumshowroom{
+#hero button{
+    font-size: 1.75em;
 
 }
 
@@ -125,6 +130,7 @@ text-align: center;
 
 #nuestros-productos h2{
     margin-top: 0;
+    font-size: 3.5em;
 }
 
 #nuestros-productos p{
@@ -132,8 +138,11 @@ text-align: center;
 }
 
 #nuestros-productos .carta{
-
-
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 .carta:first-child{
@@ -144,6 +153,7 @@ text-align: center;
     )
     ,url(./img/pexels-ksenia-chernaya-3965548.jpg);
  
+ 
 }
 
 .carta:nth-child(2){
@@ -153,6 +163,7 @@ text-align: center;
         rgba(0,0,0,0.5)
     )
     ,url(./img/243188050CD_99_4.jpg);
+    
 
 }
 
@@ -164,4 +175,50 @@ text-align: center;
     )
     ,url(./img/pexels-ylanite-koppens-934063.jpg);
 
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#ComprarYa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:black;
+    color: #fafafa;
+    height: 80vh;
+}
+
+#ComprarYa h2{
+    font-size: 9vw;
+}
+
+#ComprarYa button{
+    font-size: 5vw;
+}
+
+footer {
+  background-color: #fafafa;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: black;
+}
+footer .container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
